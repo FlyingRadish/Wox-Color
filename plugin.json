@@ -1,0 +1,12 @@
+{
+  "ID":"2AFAF0240E2411E793AE92361F002671",
+  "ActionKeyword":"color",
+  "Name":"Color",
+  "Description":"Color tool",
+  "Author":"houxg",
+  "Version":"0.0.1",
+  "Language":"python",
+  "Website":"http://github.com/houxg",
+  "IcoPath": "icon\\icon.png",
+  "ExecuteFileName":"Color.py"
+}
