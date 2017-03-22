@@ -7,6 +7,6 @@
   "Version":"0.0.1",
   "Language":"python",
   "Website":"http://github.com/houxg",
-  "IcoPath": "icon\\icon.png",
+  "IcoPath": "Image\\app.png",
   "ExecuteFileName":"Color.py"
 }

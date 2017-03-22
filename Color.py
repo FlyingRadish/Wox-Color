@@ -53,12 +53,12 @@ class Color(Wox):
         if len(params) == 3 or len(params) == 4:
             try:
                 color = 0
-                shift = 0
-                params.reverse()
                 for item in params:
-                    color += clamp(0, 255, int(item)) << shift
-                    shift = shift + 8
-                color = hex(color).replace("0x", "#")
+                    color = color << 8
+                    color += clamp(0, 255, int(item))
+                color = "#{color:0{padding}x}".format(
+                    color=color, padding=len(params) * 2)
+                params.reverse()
                 icon = createColorThumb(
                     int(params[2]), int(params[1]), int(params[0]))
                 icon.replace(os.getcwd(), "")
