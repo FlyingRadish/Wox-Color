@@ -2,11 +2,11 @@
   "ID":"2AFAF0240E2411E793AE92361F002671",
   "ActionKeyword":"color",
   "Name":"Color",
-  "Description":"Color tool",
+  "Description":"Plugin for converting color value and copy to clipboard",
   "Author":"houxg",
   "Version":"0.0.1",
   "Language":"python",
   "Website":"http://github.com/houxg",
-  "IcoPath": "Image\\app.png",
+  "IcoPath": "Images\\app.png",
   "ExecuteFileName":"Color.py"
 }
