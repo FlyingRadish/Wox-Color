@@ -3,11 +3,6 @@ import os
 from PIL import Image
 
 
-def copy_colorHex(self, color):
-    command = 'echo ' + color.strip() + '| clip'
-    os.system(command)
-
-
 def clamp(min, max, x):
     if x > max:
         return max
@@ -81,6 +76,10 @@ class Color(Wox):
             }
         })
         return results
+
+    def copy_colorHex(self, color):
+        command = 'echo ' + color.strip() + '| clip'
+        os.system(command)
 
 
 if __name__ == "__main__":
